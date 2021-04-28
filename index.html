@@ -79,14 +79,14 @@ li {
    top: 0;
    left: 0;
    width: 100%;
-   padding: 25px 25px 25px 25px;
+   padding: 21px 25px 25px 25px;
  
 }
 .header-right {
    position: fixed;
    right: 0;
    top: 0;
-   padding: 25px 25px 25px 25px;
+   padding: 13px 25px 25px 25px;
  
 }
  
@@ -154,22 +154,33 @@ body{
    justify-content: space-evenly;
    padding-top: 35px;
 }
+
+.store {
+   padding-left: 15px;
+}
+.gmail {
+   padding-right: 45px;
+   position: sticky;
+}
+.images {
+   padding-right: 2
+}
 </style>
 </head>
 <body>
 <div class="header">
 <div class="header-left">
    <ul id="navbar">
-       <li <a href="About">About</a></li>
-       <li <a href="Store">Store</a></li>
+       <li <a href="About" class="about">About</a></li>
+       <li <a href="Store" class="store">Store</a></li>
       
  
    </ul>
 </div>
 <div>
 <ul class="header-right">
-   <li <a href="Gmail">Gmail</a></li>
-   <li <a href="Images">Images</a></li>
+   <li <a href="Gmail" class="gmail">Gmail</a></li>
+   <li <a href="Images" class="images">Images</a></li>
    <li><i class="material-icons" style="font-size:20px;">apps</i> </li>
     <button type="button" class="btn btn-primary">Sign in</button>
    </ul>
